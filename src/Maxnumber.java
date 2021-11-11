@@ -7,9 +7,9 @@ public class Maxnumber {
         Maxnumber obj = new Maxnumber();
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enters number to compare :");
-        Integer a= scanner.nextInt();
-        Integer b = scanner.nextInt();
-        Integer c = scanner.nextInt();
+        Float a= scanner.nextFloat();
+        Float b = scanner.nextFloat();
+        Float c = scanner.nextFloat();
         int index = scanner.nextInt();
 
         obj.max(a,b,c,index);
