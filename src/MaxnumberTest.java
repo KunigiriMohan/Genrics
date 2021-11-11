@@ -10,6 +10,6 @@ class MaxnumberTest {
     void max() {
         Maxnumber maxnumber= new Maxnumber();
                         //giving inputs to test case
-        assertEquals(200,maxnumber.max(50,200,100,0));                                //checking maximum value is at correct index.
+        assertEquals(2.8,maxnumber.max(2.2,2.8,2.0,0));                                //checking maximum value is at correct index.
     }
 }
